@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(46, 44, 44);
+}
+
+div {
+    width: 100px; 
+    height: 90vh;
+}
+input {
+    border-top: 1px; 
+    background-color: rgb(46, 44, 44); 
+    color: white;
+    text-transform: capitalize; 
+    border-left: 0; 
+    border-right: 0; 
+    width: 200px; 
+    margin-top: 60px;
+    position: relative;
+    margin-left: -100px;
+    padding-bottom: 5px;
+    font-size: large;
+    width: 400px;
+    height: 20px;
+}
+input:hover {
+ border-color: rgb(36, 36, 248);
+
+}
+
+.placeholder-effect:focus::placeholder {
+    color: blue;
+}
+
+
+
+
+
+#message-space {
+    height: 100px; 
+    width: 400px; 
+
+}
+#message-space{
+    bottom: 40px;
+    right: 2px;
+}
+#message-space:focus::placeholder{
+    color: blue;
+}
+   button#fb {
+    background-color: rgb(39, 39, 240); 
+    color: white;
+    border: 0;
+    width: 100px;
+    height: 35px; 
+    text-transform: uppercase;
+   margin-left: 20px;
+   font-size: 17px;
+}
+
+    button#sb{
+    background-color: white;
+    color: rgb(61, 60, 60);
+    border: 0;
+    width: 100px; 
+    height: 35px; 
+    font-size: 17px;
+   margin-left: 5px;
+    text-transform: uppercase;
+}
